@@ -1,6 +1,6 @@
 {
   "name": "@samuelemadrigali/ui-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UI library React + Tailwind",
   "main": "index.js",
   "scripts": {
