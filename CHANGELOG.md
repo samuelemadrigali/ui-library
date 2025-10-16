@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/samuelemadrigali/ui-library/compare/v1.1.5...v1.1.6) (2025-10-16)
+
+
+### Bug Fixes
+
+* remove unused style.css export from package.json ([507af4a](https://github.com/samuelemadrigali/ui-library/commit/507af4ab799ef70cf03ccfea410ac7be00ca55d2))
+
 ### [1.1.5](https://github.com/samuelemadrigali/ui-library/compare/v1.1.4...v1.1.5) (2025-10-16)
 
 
