@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/samuelemadrigali/ui-library/compare/v1.1.1...v1.1.2) (2025-10-16)
+
+
+### Bug Fixes
+
+* add types to package.json exports for TypeScript support ([d1c1dda](https://github.com/samuelemadrigali/ui-library/commit/d1c1dda2eff227f65d8c8524dd652d2246dd146b))
+
 ### [1.1.1](https://github.com/samuelemadrigali/ui-library/compare/v1.1.0...v1.1.1) (2025-10-16)
 
 
