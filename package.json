@@ -15,6 +15,7 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/ui-library.es.js",
       "require": "./dist/ui-library.cjs.js"
     },
