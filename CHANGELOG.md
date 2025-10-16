@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/samuelemadrigali/ui-library/compare/v1.1.2...v1.1.3) (2025-10-16)
+
+
+### Bug Fixes
+
+* add "use client" directive to Button component ([50706a1](https://github.com/samuelemadrigali/ui-library/commit/50706a18583914d976cb4f7b2597b2d44c4dc615))
+
 ### [1.1.2](https://github.com/samuelemadrigali/ui-library/compare/v1.1.1...v1.1.2) (2025-10-16)
 
 
