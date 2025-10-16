@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/samuelemadrigali/ui-library/compare/v1.1.3...v1.1.4) (2025-10-16)
+
+
+### Bug Fixes
+
+* update package.json and vite.config.ts to include tailwindcss as a peer dependency ([40a6a89](https://github.com/samuelemadrigali/ui-library/commit/40a6a89d82d5341e6ce0766d6b8a6d2a5e48175a))
+
 ### [1.1.3](https://github.com/samuelemadrigali/ui-library/compare/v1.1.2...v1.1.3) (2025-10-16)
 
 
