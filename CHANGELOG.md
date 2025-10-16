@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/samuelemadrigali/ui-library/compare/v1.2.1...v1.2.2) (2025-10-16)
+
+
+### Bug Fixes
+
+* add Button and Heading type definitions ([17f3421](https://github.com/samuelemadrigali/ui-library/commit/17f34210c2396af04321a322538027e387bd97c1))
+
 ### [1.2.1](https://github.com/samuelemadrigali/ui-library/compare/v1.2.0...v1.2.1) (2025-10-16)
 
 
