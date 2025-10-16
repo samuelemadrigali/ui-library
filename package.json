@@ -24,6 +24,7 @@
     "dist",
     "src"
   ],
+  "sideEffects": false,
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -39,7 +40,8 @@
   "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "lucide-react": ">=0.400.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -64,7 +66,6 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-visually-hidden": "^1.2.3",
-    "lucide-react": "^0.545.0",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^3.1.1"
   }

@@ -4,6 +4,9 @@ import dts from "vite-plugin-dts";
 import { peerDependencies } from "./package.json";
 import tailwindcss from "@tailwindcss/vite";
 
+const alsoExternal = ["tailwind-merge", "tailwind-variants", "lucide-react"];
+const peer = Object.keys(peerDependencies ?? []);
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -17,15 +20,15 @@ export default defineConfig({
     }),
   ],
   build: {
+    sourcemap: true,
     lib: {
-      entry: "./src/index.ts", // Entry point for the library
-      name: "ui-library", // Global variable name
-      fileName: (format) => `ui-library.${format}.js`, // Output filenames
-      formats: ["es", "cjs"], // Output both ESModule and CommonJS builds
+      entry: "./src/index.ts",
+      name: "ui-library",
+      fileName: (format) => `ui-library.${format}.js`,
+      formats: ["es", "cjs"],
     },
     rollupOptions: {
-      // Externalise peer dependencies to avoid including React in the bundle
-      external: Object.keys(peerDependencies),
+      external: [...peer, ...alsoExternal],
       output: {
         globals: {
           react: "React",
