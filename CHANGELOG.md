@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/samuelemadrigali/ui-library/compare/v1.1.6...v1.1.7) (2025-10-16)
+
+
+### Bug Fixes
+
+* update package dependencies and improve Vite configuration ([871e461](https://github.com/samuelemadrigali/ui-library/commit/871e461361047d6e6b2bf9a6d2f36cda8c31998f))
+
 ### [1.1.6](https://github.com/samuelemadrigali/ui-library/compare/v1.1.5...v1.1.6) (2025-10-16)
 
 
