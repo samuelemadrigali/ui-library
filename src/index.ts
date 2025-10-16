@@ -1,4 +1,5 @@
 export { Button, buttonVariants } from "./components/Button";
 export type { ButtonProps } from "./components/Button";
 
-import "./style.css";
+export { headingVariants, Heading } from "./components/Heading";
+export type { HeadingProps } from "./components/Heading";
