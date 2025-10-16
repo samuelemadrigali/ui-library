@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/samuelemadrigali/ui-library/compare/v1.1.7...v1.2.0) (2025-10-16)
+
+
+### Features
+
+* add Heading component with variants and Storybook stories ([cff916a](https://github.com/samuelemadrigali/ui-library/commit/cff916acfaca2ce4a175eafe0ac08638bcd98939))
+
 ### [1.1.7](https://github.com/samuelemadrigali/ui-library/compare/v1.1.6...v1.1.7) (2025-10-16)
 
 
