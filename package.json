@@ -18,9 +18,6 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/ui-library.es.js",
       "require": "./dist/ui-library.cjs.js"
-    },
-    "./style.css": {
-      "default": "./dist/ui-library.css"
     }
   },
   "files": [
