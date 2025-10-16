@@ -1,6 +1,6 @@
-import { ComponentPropsWithoutRef } from "react";
-import { VariantProps } from "tailwind-variants";
-import { LucideIcon } from "lucide-react";
+import type { ComponentPropsWithoutRef } from "react";
+import type { VariantProps } from "tailwind-variants";
+import type { LucideIcon } from "lucide-react";
 import { buttonVariants } from "./Button";
 
 export interface ButtonProps

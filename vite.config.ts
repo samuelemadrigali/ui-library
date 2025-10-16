@@ -13,10 +13,16 @@ export default defineConfig({
     react(),
     tailwindcss(),
     dts({
+      entryRoot: "src",
       insertTypesEntry: true,
-      exclude: ["**/*.stories.ts", "**/*.test.ts"],
       rollupTypes: true,
       tsconfigPath: "./tsconfig.app.json",
+      exclude: [
+        "**/*.stories.ts",
+        "**/*.stories.tsx",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+      ],
     }),
   ],
   build: {
