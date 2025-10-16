@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/samuelemadrigali/ui-library/compare/v1.1.4...v1.1.5) (2025-10-16)
+
+
+### Bug Fixes
+
+* include 'src' directory in package.json files array ([c9a9879](https://github.com/samuelemadrigali/ui-library/commit/c9a98791fe35335ea05aa7893c805a6169e77e24))
+
 ### [1.1.4](https://github.com/samuelemadrigali/ui-library/compare/v1.1.3...v1.1.4) (2025-10-16)
 
 
