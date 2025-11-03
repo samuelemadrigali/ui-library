@@ -9,3 +9,6 @@ export type { GridProps } from "./components/Grid";
 
 export { gridColumnVariants, GridColumn } from "./components/GridColumn";
 export type { GridColumnProps } from "./components/GridColumn";
+
+export { paragraphVariants, Paragraph } from "./components/Paragraph";
+export type { ParagraphProps } from "./components/Paragraph";
