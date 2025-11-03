@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/samuelemadrigali/ui-library/compare/v1.3.0...v1.4.0) (2025-11-03)
+
+
+### Features
+
+* add Alert component with variants and types, including stories and types ([c4fd325](https://github.com/samuelemadrigali/ui-library/commit/c4fd325a2cc2d8e99ba8e347c527d971128c5200))
+* add Container component with responsive variants and types ([d3c8f1e](https://github.com/samuelemadrigali/ui-library/commit/d3c8f1e94e8cd60c741ec7b785c29e42883b5928))
+* add HamburgerMenu component with variants and types, including stories ([1893e0f](https://github.com/samuelemadrigali/ui-library/commit/1893e0fa7d1f18b10a431927bdebf3a5f34d068c))
+* add Paragraph component with variants for size, color, weight, and alignment ([c3d9664](https://github.com/samuelemadrigali/ui-library/commit/c3d9664545482d8bc6b8e3a8e2131a866da29242))
+
 ## [1.3.0](https://github.com/samuelemadrigali/ui-library/compare/v1.2.2...v1.3.0) (2025-11-03)
 
 
