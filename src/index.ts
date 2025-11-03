@@ -12,3 +12,6 @@ export type { GridColumnProps } from "./components/GridColumn";
 
 export { paragraphVariants, Paragraph } from "./components/Paragraph";
 export type { ParagraphProps } from "./components/Paragraph";
+
+export { containerVariants, Container } from "./components/Container";
+export type { ContainerProps } from "./components/Container";
