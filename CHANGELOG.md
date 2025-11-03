@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/samuelemadrigali/ui-library/compare/v1.2.2...v1.3.0) (2025-11-03)
+
+
+### Features
+
+* add Grid and GridColumn components with responsive variants and types ([b416a66](https://github.com/samuelemadrigali/ui-library/commit/b416a66a3d40dcbca8d2ce3de9215ca70895ff0b))
+
 ### [1.2.2](https://github.com/samuelemadrigali/ui-library/compare/v1.2.1...v1.2.2) (2025-10-16)
 
 
