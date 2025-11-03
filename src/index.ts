@@ -15,3 +15,11 @@ export type { ParagraphProps } from "./components/Paragraph";
 
 export { containerVariants, Container } from "./components/Container";
 export type { ContainerProps } from "./components/Container";
+
+export {
+  Alert,
+  alertVariants,
+  alertIconVariants,
+  alertCloseButtonVariants,
+} from "./components/Alert";
+export type { AlertProps, AlertVariants } from "./components/Alert";
