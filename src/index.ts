@@ -23,3 +23,6 @@ export {
   alertCloseButtonVariants,
 } from "./components/Alert";
 export type { AlertProps, AlertVariants } from "./components/Alert";
+
+export { HamburgerMenu, menuToggleVariants } from "./components/HamburgerMenu";
+export type { HamburgerMenuProps } from "./components/HamburgerMenu";
