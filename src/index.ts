@@ -37,3 +37,6 @@ export type {
   AccordionProps,
   AccordionItemProps,
 } from "./components/Accordion";
+
+export { Input, inputVariants } from "./components/Input";
+export type { InputProps } from "./components/Input";
