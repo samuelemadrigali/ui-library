@@ -40,3 +40,6 @@ export type {
 
 export { Input, inputVariants } from "./components/Input";
 export type { InputProps } from "./components/Input";
+
+export { Select, selectVariants } from "./components/Select";
+export type { SelectProps } from "./components/Select";
