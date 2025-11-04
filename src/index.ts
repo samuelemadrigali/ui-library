@@ -26,3 +26,14 @@ export type { AlertProps, AlertVariants } from "./components/Alert";
 
 export { HamburgerMenu, menuToggleVariants } from "./components/HamburgerMenu";
 export type { HamburgerMenuProps } from "./components/HamburgerMenu";
+
+export {
+  Accordion,
+  AccordionItem,
+  accordionVariants,
+  accordionItemVariants,
+} from "./components/Accordion";
+export type {
+  AccordionProps,
+  AccordionItemProps,
+} from "./components/Accordion";
