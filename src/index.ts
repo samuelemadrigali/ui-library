@@ -43,3 +43,6 @@ export type { InputProps } from "./components/Input";
 
 export { Select, selectVariants } from "./components/Select";
 export type { SelectProps } from "./components/Select";
+
+export { Textarea, textareaVariants } from "./components/Textarea";
+export type { TextareaProps } from "./components/Textarea";
