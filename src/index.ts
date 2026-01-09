@@ -46,3 +46,19 @@ export type { SelectProps } from "./components/Select";
 
 export { Textarea, textareaVariants } from "./components/Textarea";
 export type { TextareaProps } from "./components/Textarea";
+
+export {
+  Tabs,
+  TabsList,
+  TabsTrigger,
+  TabsContent,
+  tabsListVariants,
+  tabsTriggerVariants,
+  tabsContentVariants,
+} from "./components/Tabs";
+export type {
+  TabsProps,
+  TabsListProps,
+  TabsTriggerProps,
+  TabsContentProps,
+} from "./components/Tabs";
