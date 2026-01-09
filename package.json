@@ -1,6 +1,6 @@
 {
   "name": "@samuelemadrigali/ui-library",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "UI library React + Tailwind",
   "repository": {
     "type": "git",
@@ -31,7 +31,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version && git push --follow-tags && npm publish",
+    "release:patch": "standard-version --release-as patch && git push --follow-tags && npm publish",
+    "release:minor": "standard-version --release-as minor && git push --follow-tags && npm publish",
+    "release:major": "standard-version --release-as major && git push --follow-tags && npm publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
