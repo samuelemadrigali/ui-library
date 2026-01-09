@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/samuelemadrigali/ui-library/compare/v1.4.0...v1.5.0) (2026-01-09)
+
+
+### Features
+
+* add Accordion component with variants and types, including stories ([c182923](https://github.com/samuelemadrigali/ui-library/commit/c18292374eb10cacdb5df3e546a9a9c999f6bb55))
+* add Input component with variants, types, and stories ([6bf1849](https://github.com/samuelemadrigali/ui-library/commit/6bf1849d105b7bfdd6fdaa9a83699694ae861480))
+* add Select component with variants, types, and stories ([48860af](https://github.com/samuelemadrigali/ui-library/commit/48860af55eee4febb09ebdc75402ce0fca983885))
+* add Tabs component with variants, types, and stories ([ff40c25](https://github.com/samuelemadrigali/ui-library/commit/ff40c2559c05455c7cc279b3078ad3dec350a7b0))
+* add Textarea component with variants, types, and stories ([0119f4d](https://github.com/samuelemadrigali/ui-library/commit/0119f4d3d162553b147d040a375e474e4f0c5339))
+
 ## [1.4.0](https://github.com/samuelemadrigali/ui-library/compare/v1.3.0...v1.4.0) (2025-11-03)
 
 
