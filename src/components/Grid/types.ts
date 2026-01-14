@@ -1,6 +1,6 @@
 import type { ComponentPropsWithoutRef, ElementType } from "react";
 import type { VariantProps } from "tailwind-variants";
-import { gridVariants } from "./Grid";
+import { gridVariants } from "./variants";
 
 type GridVariants = VariantProps<typeof gridVariants>;
 

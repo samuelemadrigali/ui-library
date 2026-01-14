@@ -1,6 +1,6 @@
 import type { ComponentPropsWithoutRef, ElementType } from "react";
 import type { VariantProps } from "tailwind-variants";
-import { containerVariants } from "./Container";
+import { containerVariants } from "./variants";
 
 type ContainerVariants = VariantProps<typeof containerVariants>;
 

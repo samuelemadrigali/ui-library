@@ -1,6 +1,6 @@
 import type { ComponentPropsWithoutRef, ElementType } from "react";
 import type { VariantProps } from "tailwind-variants";
-import { gridColumnVariants } from "./GridColumn";
+import { gridColumnVariants } from "./variants";
 
 type GridColumnVariants = VariantProps<typeof gridColumnVariants>;
 
@@ -14,7 +14,7 @@ type ResponsiveColumnProps = {
 
 export interface GridColumnProps
   extends Omit<ComponentPropsWithoutRef<"div">, "className">,
-    Pick<GridColumnVariants, "span" | "start" | "end" | "order">,
+    Partial<Pick<GridColumnVariants, "span" | "start" | "end" | "order">>,
     ResponsiveColumnProps {
   as?: ElementType;
   className?: string;

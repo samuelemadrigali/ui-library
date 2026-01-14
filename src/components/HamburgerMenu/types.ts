@@ -1,6 +1,6 @@
 import type { ComponentPropsWithoutRef } from "react";
 import type { VariantProps } from "tailwind-variants";
-import { menuToggleVariants } from "./HambugerMenu";
+import { menuToggleVariants } from "./variants";
 
 export interface HamburgerMenuProps
   extends Omit<ComponentPropsWithoutRef<"button">, "color">,

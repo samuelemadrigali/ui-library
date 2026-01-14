@@ -1,7 +1,7 @@
 import type { ComponentPropsWithoutRef } from "react";
 import type { VariantProps } from "tailwind-variants";
 import type { LucideIcon } from "lucide-react";
-import { buttonVariants } from "./Button";
+import { buttonVariants } from "./variants";
 
 export interface ButtonProps
   extends Omit<ComponentPropsWithoutRef<"button">, "color">,
