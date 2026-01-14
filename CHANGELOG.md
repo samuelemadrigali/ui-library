@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.2](https://github.com/samuelemadrigali/ui-library/compare/v1.6.1...v1.6.2) (2026-01-14)
+
+
+### Features
+
+* enhance component prop types with detailed documentation and examples ([2a16ad2](https://github.com/samuelemadrigali/ui-library/commit/2a16ad29dc227c05fa20fa0bcb288729aec4a565))
+
+
+### Bug Fixes
+
+* update import paths for variants in Button, Container, Grid, GridColumn, HamburgerMenu, and Heading components ([032a6ef](https://github.com/samuelemadrigali/ui-library/commit/032a6efa4b58a1aa50d2d08d6fe8ef7d6b4f7689))
+
 ### [1.6.1](https://github.com/samuelemadrigali/ui-library/compare/v1.6.0...v1.6.1) (2026-01-14)
 
 ## [1.6.0](https://github.com/samuelemadrigali/ui-library/compare/v1.5.2...v1.6.0) (2026-01-14)
