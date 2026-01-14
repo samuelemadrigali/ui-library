@@ -62,3 +62,15 @@ export type {
   TabsTriggerProps,
   TabsContentProps,
 } from "./components/Tabs";
+
+export {
+  HeaderFullHeight,
+  headerFullHeightVariants,
+} from "./components/Headers/FullHeight";
+export type {
+  HeaderFullHeightProps,
+  MenuAnimation,
+} from "./components/Headers/FullHeight";
+
+export { HeaderBasic, headerBasicVariants } from "./components/Headers/Basic";
+export type { HeaderBasicProps, Breakpoint } from "./components/Headers/Basic";

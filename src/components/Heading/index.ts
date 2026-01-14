@@ -1,2 +1,3 @@
-export { headingVariants, Heading } from "./Heading";
+export { Heading } from "./Heading";
+export { headingVariants } from "./variants";
 export type { HeadingProps } from "./types";
