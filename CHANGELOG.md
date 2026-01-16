@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/samuelemadrigali/ui-library/compare/v1.6.2...v1.7.0) (2026-01-16)
+
+
+### Features
+
+* add SkipToMainContent component for improved accessibility ([d5542b5](https://github.com/samuelemadrigali/ui-library/commit/d5542b5908372969f5ab4e2a5a031e9f5955f5f2))
+
 ### [1.6.2](https://github.com/samuelemadrigali/ui-library/compare/v1.6.1...v1.6.2) (2026-01-14)
 
 
