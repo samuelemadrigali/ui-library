@@ -74,3 +74,9 @@ export type {
 
 export { HeaderBasic, headerBasicVariants } from "./components/Headers/Basic";
 export type { HeaderBasicProps, Breakpoint } from "./components/Headers/Basic";
+
+export {
+  SkipToMainContent,
+  skipToMainContentVariants,
+} from "./components/SkipToMainContent";
+export type { SkipToMainContentProps } from "./components/SkipToMainContent";

@@ -38,6 +38,7 @@ import {
   HamburgerMenu,
   HeaderBasic,
   HeaderFullHeight,
+  SkipToMainContent,
 } from "@samuelemadrigali/ui-library";
 ```
 
@@ -84,6 +85,12 @@ import {
 | `HeaderBasic`      | Responsive header       | Main navigation      |
 | `HeaderFullHeight` | Full-screen menu header | Immersive navigation |
 | `HamburgerMenu`    | Menu toggle button      | Mobile navigation    |
+
+### Accessibility Components
+
+| Component           | Description          | Use Case               |
+| ------------------- | -------------------- | ---------------------- |
+| `SkipToMainContent` | Skip navigation link | Keyboard accessibility |
 
 ---
 
@@ -512,6 +519,33 @@ const [isOpen, setIsOpen] = useState(false);
 />;
 ```
 
+### SkipToMainContent
+
+Accessible skip navigation link that allows keyboard users to bypass navigation.
+
+```tsx
+import { SkipToMainContent } from "@samuelemadrigali/ui-library";
+
+// Basic usage - place at the very beginning of your layout
+<SkipToMainContent text="Skip to main content" targetId="main-content" />;
+
+// With Italian text
+<SkipToMainContent text="Vai al contenuto principale" targetId="contenuto" />;
+
+// Full layout example
+function Layout({ children }) {
+  return (
+    <>
+      <SkipToMainContent text="Skip to main content" targetId="main-content" />
+      <Header />
+      <Navigation />
+      <main id="main-content">{children}</main>
+      <Footer />
+    </>
+  );
+}
+```
+
 ---
 
 ## Common Patterns
@@ -658,6 +692,7 @@ import type {
   HamburgerMenuProps,
   HeaderBasicProps,
   HeaderFullHeightProps,
+  SkipToMainContentProps,
 } from "@samuelemadrigali/ui-library";
 ```
 
@@ -667,6 +702,7 @@ import type {
 
 All components follow WAI-ARIA guidelines:
 
+- **SkipToMainContent**: WCAG 2.4.1 Bypass Blocks, visible on focus, keyboard navigation
 - **Button**: Proper `button` semantics, keyboard navigation, disabled states
 - **Accordion**: ARIA `expanded` states, keyboard navigation (Enter, Space, Arrow keys)
 - **Tabs**: ARIA `tablist`, `tab`, `tabpanel` roles, automatic focus management
@@ -687,3 +723,5 @@ When using this library to build interfaces:
 5. **Apply responsive props** for mobile-first design (`cols={1} md={{ cols: 2 }}`)
 6. **Check variant options** in the component's TypeScript types for available choices
 7. **Combine with Tailwind** classes via `className` prop for custom styling
+8. **Add SkipToMainContent** at the very beginning of layouts for accessibility
+9. **Ensure main content has an id** that matches the `targetId` prop of SkipToMainContent
