@@ -79,4 +79,15 @@ export interface ButtonProps
    * Rendered as visually hidden text for screen readers.
    */
   ariaLabel?: string;
+
+  /**
+   * When true, disables hover and focus effects.
+   * @default false
+   *
+   * @example
+   * ```tsx
+   * <Button disableHover>Static Button</Button>
+   * ```
+   */
+  disableHover?: boolean;
 }

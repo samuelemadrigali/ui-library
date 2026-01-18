@@ -20,6 +20,7 @@ export const buttonVariants = tv({
       warning: "",
       success: "",
       neutral: "",
+      "text-color": "",
     },
     size: {
       sm: "h-9 px-3 text-sm",
@@ -27,6 +28,10 @@ export const buttonVariants = tv({
       lg: "h-11 px-8 text-base",
       xl: "h-12 px-10 text-lg",
       icon: "h-10 w-10 p-0",
+    },
+    disableHover: {
+      true: "[&:hover]:opacity-100 [&:hover]:bg-current [&:hover]:text-current [&:hover]:no-underline",
+      false: "",
     },
   },
   compoundVariants: [
@@ -167,6 +172,29 @@ export const buttonVariants = tv({
       variant: "link",
       color: "neutral",
       class: ["text-gray-700", "hover:text-gray-900"],
+    },
+    {
+      variant: "fill",
+      color: "text-color",
+      class: [
+        "bg-current text-white",
+        "hover:opacity-90",
+        "focus-visible:ring-current",
+      ],
+    },
+    {
+      variant: "outline",
+      color: "text-color",
+      class: [
+        "border-current text-current",
+        "hover:bg-current hover:text-white",
+        "focus-visible:ring-current",
+      ],
+    },
+    {
+      variant: "link",
+      color: "text-color",
+      class: ["text-current", "hover:opacity-80"],
     },
   ],
   defaultVariants: {

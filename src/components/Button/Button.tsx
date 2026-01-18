@@ -19,6 +19,7 @@ export const Button = forwardRef<ComponentRef<"button">, ButtonProps>(function (
     ariaLabel,
     children,
     asChild = false,
+    disableHover = false,
     ...props
   },
   ref
@@ -75,6 +76,7 @@ export const Button = forwardRef<ComponentRef<"button">, ButtonProps>(function (
         variant,
         color,
         size: finalSize,
+        disableHover,
         className,
       })}
       ref={ref}
