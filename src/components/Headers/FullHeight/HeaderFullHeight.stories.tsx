@@ -68,7 +68,7 @@ const MenuContent = () => (
 
 export const Default: Story = {
   args: {
-    logo: <Logo />,
+    leftSlot: <Logo />,
     menuContent: <MenuContent />,
   },
   render: (args) => (
@@ -90,7 +90,7 @@ export const Default: Story = {
 
 export const Transparent: Story = {
   args: {
-    logo: <div className="text-xl font-bold text-white">Brand</div>,
+    leftSlot: <div className="text-xl font-bold text-white">Brand</div>,
     menuContent: <MenuContent />,
     transparent: true,
     menuColor: "inverted",
@@ -122,37 +122,9 @@ export const Transparent: Story = {
   ),
 };
 
-export const WithCustomRightSlot: Story = {
-  args: {
-    logo: <Logo />,
-    rightSlot: (
-      <div className="flex gap-2">
-        <Button variant="outline" color="neutral" size="sm">
-          Login
-        </Button>
-        <Button variant="fill" color="primary" size="sm">
-          Sign Up
-        </Button>
-      </div>
-    ),
-  },
-  render: (args) => (
-    <div>
-      <HeaderFullHeight {...args} />
-      <main className="p-8">
-        <Heading level="h1">Custom Right Slot</Heading>
-        <p className="mt-4">
-          This example shows custom content on the right instead of the
-          hamburger menu.
-        </p>
-      </main>
-    </div>
-  ),
-};
-
 export const ControlledMenu: Story = {
   args: {
-    logo: <Logo />,
+    leftSlot: <Logo />,
     menuContent: <MenuContent />,
   },
   render: function ControlledExample(args) {
@@ -178,6 +150,57 @@ export const ControlledMenu: Story = {
       </div>
     );
   },
+};
+
+export const CenteredLogo: Story = {
+  args: {
+    centerSlot: <Logo />,
+    menuContent: <MenuContent />,
+  },
+  render: (args) => (
+    <div>
+      <HeaderFullHeight {...args} />
+      <main className="p-8">
+        <Heading level="h1">Centered Logo</Heading>
+        <p className="mt-4">
+          This example shows a centered logo with the hamburger menu on the
+          right.
+        </p>
+      </main>
+    </div>
+  ),
+};
+
+export const ThreeSlots: Story = {
+  args: {
+    leftSlot: <Logo />,
+    centerSlot: (
+      <nav className="flex gap-6">
+        <a href="#home" className="text-sm font-medium hover:text-gray-600">
+          Home
+        </a>
+        <a href="#about" className="text-sm font-medium hover:text-gray-600">
+          About
+        </a>
+        <a href="#contact" className="text-sm font-medium hover:text-gray-600">
+          Contact
+        </a>
+      </nav>
+    ),
+    menuContent: <MenuContent />,
+  },
+  render: (args) => (
+    <div>
+      <HeaderFullHeight {...args} />
+      <main className="p-8">
+        <Heading level="h1">Three Slots Layout</Heading>
+        <p className="mt-4">
+          This example shows left slot (logo), center slot (navigation), and
+          right slot (hamburger menu that opens the full menu).
+        </p>
+      </main>
+    </div>
+  ),
 };
 
 // Add React import for the controlled example

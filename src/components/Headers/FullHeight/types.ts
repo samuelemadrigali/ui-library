@@ -15,9 +15,13 @@ export interface HeaderFullHeightProps
   extends Omit<ComponentPropsWithoutRef<"header">, "color">,
     Omit<VariantProps<typeof headerFullHeightVariants>, "isOpen"> {
   /**
-   * Logo or brand component displayed on the left
+   * Content to display on the left (logo, brand, or custom content)
    */
-  logo?: ReactNode;
+  leftSlot?: ReactNode;
+  /**
+   * Content to display in the center (typically a centered logo)
+   */
+  centerSlot?: ReactNode;
   /**
    * Custom content to display on the right instead of HamburgerMenu
    */

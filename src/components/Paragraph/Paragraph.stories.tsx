@@ -12,7 +12,7 @@ const meta: Meta<typeof Paragraph> = {
   argTypes: {
     size: {
       control: "select",
-      options: ["xs", "sm", "base", "lg", "xl"],
+      options: ["xs", "sm", "base", "lg", "xl", "2xl"],
     },
     color: {
       control: "select",
@@ -65,6 +65,13 @@ export const Large: Story = {
 export const ExtraLarge: Story = {
   args: {
     size: "xl",
+    children: loremText,
+  },
+};
+
+export const ExtraExtraLarge: Story = {
+  args: {
+    size: "2xl",
     children: loremText,
   },
 };

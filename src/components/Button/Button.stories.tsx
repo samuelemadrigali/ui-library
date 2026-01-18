@@ -15,13 +15,24 @@ const meta: Meta<typeof Button> = {
     },
     color: {
       control: "select",
-      options: ["primary", "accent", "danger", "warning", "success", "neutral"],
+      options: [
+        "primary",
+        "accent",
+        "danger",
+        "warning",
+        "success",
+        "neutral",
+        "text-color",
+      ],
     },
     size: {
       control: "select",
       options: ["sm", "default", "lg", "xl", "icon"],
     },
     disabled: {
+      control: "boolean",
+    },
+    disableHover: {
       control: "boolean",
     },
   },
@@ -128,5 +139,27 @@ export const Disabled: Story = {
     color: "primary",
     disabled: true,
     children: "Disabled",
+  },
+};
+
+export const TextColor: Story = {
+  args: {
+    variant: "fill",
+    color: "text-color",
+    children: "Inherits Color",
+  },
+  render: (args) => (
+    <div className="text-blue-600">
+      <Button {...args} />
+    </div>
+  ),
+};
+
+export const DisableHover: Story = {
+  args: {
+    variant: "outline",
+    color: "primary",
+    disableHover: true,
+    children: "No Hover Effect",
   },
 };

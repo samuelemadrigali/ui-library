@@ -19,7 +19,8 @@ export const HeaderFullHeight = forwardRef<
 >(function (
   {
     className,
-    logo,
+    leftSlot,
+    centerSlot,
     rightSlot,
     menuContent,
     isMenuOpen: controlledIsMenuOpen,
@@ -126,8 +127,11 @@ export const HeaderFullHeight = forwardRef<
       <header ref={setRefs} className={styles.header({ className })} {...props}>
         <Container>
           <div className={styles.inner()}>
-            {/* Logo Slot */}
-            <div className={styles.logoSlot()}>{logo}</div>
+            {/* Left Slot */}
+            <div className={styles.leftSlot()}>{leftSlot}</div>
+
+            {/* Center Slot */}
+            <div className={styles.centerSlot()}>{centerSlot}</div>
 
             {/* Right Slot or HamburgerMenu */}
             <div className={styles.rightSlot()}>

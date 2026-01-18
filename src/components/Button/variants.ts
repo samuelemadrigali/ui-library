@@ -30,7 +30,7 @@ export const buttonVariants = tv({
       icon: "h-10 w-10 p-0",
     },
     disableHover: {
-      true: "[&:hover]:opacity-100 [&:hover]:bg-current [&:hover]:text-current [&:hover]:no-underline",
+      true: "",
       false: "",
     },
   },
@@ -195,6 +195,23 @@ export const buttonVariants = tv({
       variant: "link",
       color: "text-color",
       class: ["text-current", "hover:opacity-80"],
+    },
+    // Disable hover effects when disableHover is true
+    {
+      variant: "fill",
+      disableHover: true,
+      class: "[&:hover]:!bg-current [&:hover]:!opacity-100",
+    },
+    {
+      variant: "outline",
+      disableHover: true,
+      class:
+        "[&:hover]:!bg-transparent [&:hover]:!text-current [&:hover]:!opacity-100",
+    },
+    {
+      variant: "link",
+      disableHover: true,
+      class: "[&:hover]:!no-underline [&:hover]:!opacity-100",
     },
   ],
   defaultVariants: {
