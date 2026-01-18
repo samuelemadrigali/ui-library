@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.3](https://github.com/samuelemadrigali/ui-library/compare/v1.7.2...v1.7.3) (2026-01-18)
+
+
+### Features
+
+* enhance Button and Header components with new slot structure and disableHover functionality ([5d5ebe9](https://github.com/samuelemadrigali/ui-library/commit/5d5ebe9ac294f4ee3e6c94316dc56cafc1b6ae4d))
+
 ### [1.7.2](https://github.com/samuelemadrigali/ui-library/compare/v1.7.1...v1.7.2) (2026-01-18)
 
 
