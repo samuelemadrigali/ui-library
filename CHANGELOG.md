@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.2](https://github.com/samuelemadrigali/ui-library/compare/v1.7.1...v1.7.2) (2026-01-18)
+
+
+### Features
+
+* add disableHover prop to Button component and update variants ([5ac4bf1](https://github.com/samuelemadrigali/ui-library/commit/5ac4bf1ef45829af065b05079e78d0bd1a48d672))
+
 ### [1.7.1](https://github.com/samuelemadrigali/ui-library/compare/v1.7.0...v1.7.1) (2026-01-16)
 
 ## [1.7.0](https://github.com/samuelemadrigali/ui-library/compare/v1.6.2...v1.7.0) (2026-01-16)
