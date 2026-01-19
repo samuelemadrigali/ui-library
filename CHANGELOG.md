@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.8](https://github.com/samuelemadrigali/ui-library/compare/v1.7.7...v1.7.8) (2026-01-19)
+
+
+### Features
+
+* add responsive order props and variants for GridColumn component ([0ba4ee8](https://github.com/samuelemadrigali/ui-library/commit/0ba4ee83799d45bd512a44f42f430c07ebb26f3b))
+
 ### [1.7.7](https://github.com/samuelemadrigali/ui-library/compare/v1.7.6...v1.7.7) (2026-01-19)
 
 
