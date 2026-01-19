@@ -31,10 +31,15 @@ export const GridColumn = forwardRef<ComponentRef<"div">, GridColumnProps>(
           end,
           order,
           smSpan: sm?.span,
+          smOrder: sm?.order,
           mdSpan: md?.span,
+          mdOrder: md?.order,
           lgSpan: lg?.span,
+          lgOrder: lg?.order,
           xlSpan: xl?.span,
+          xlOrder: xl?.order,
           "2xlSpan": xl2?.span,
+          "2xlOrder": xl2?.order,
           className,
         })}
         ref={ref}

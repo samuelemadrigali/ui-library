@@ -9,15 +9,30 @@ type GridColumnVariants = VariantProps<typeof gridColumnVariants>;
  */
 type ResponsiveColumnProps = {
   /** Column settings for small screens (640px+) */
-  sm?: { span?: GridColumnVariants["span"] };
+  sm?: {
+    span?: GridColumnVariants["span"];
+    order?: GridColumnVariants["order"];
+  };
   /** Column settings for medium screens (768px+) */
-  md?: { span?: GridColumnVariants["span"] };
+  md?: {
+    span?: GridColumnVariants["span"];
+    order?: GridColumnVariants["order"];
+  };
   /** Column settings for large screens (1024px+) */
-  lg?: { span?: GridColumnVariants["span"] };
+  lg?: {
+    span?: GridColumnVariants["span"];
+    order?: GridColumnVariants["order"];
+  };
   /** Column settings for extra large screens (1280px+) */
-  xl?: { span?: GridColumnVariants["span"] };
+  xl?: {
+    span?: GridColumnVariants["span"];
+    order?: GridColumnVariants["order"];
+  };
   /** Column settings for 2XL screens (1536px+) */
-  "2xl"?: { span?: GridColumnVariants["span"] };
+  "2xl"?: {
+    span?: GridColumnVariants["span"];
+    order?: GridColumnVariants["order"];
+  };
 };
 
 /**

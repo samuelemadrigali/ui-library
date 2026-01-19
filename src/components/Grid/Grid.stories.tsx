@@ -254,6 +254,64 @@ export const ColumnOrder: Story = {
   },
 };
 
+export const ResponsiveOrder: Story = {
+  args: {
+    cols: 1,
+    md: { cols: 3 },
+    gap: 4,
+    children: [
+      <GridColumn key="1" order={1} md={{ order: 3 }}>
+        <div className="rounded border border-orange-300 bg-orange-100 p-4 text-center">
+          First on mobile
+          <br />
+          <strong>Third on desktop</strong>
+        </div>
+      </GridColumn>,
+      <GridColumn key="2" order={2} md={{ order: 1 }}>
+        <div className="rounded border border-green-300 bg-green-100 p-4 text-center">
+          Second on mobile
+          <br />
+          <strong>First on desktop</strong>
+        </div>
+      </GridColumn>,
+      <GridColumn key="3" order={3} md={{ order: 2 }}>
+        <div className="rounded border border-blue-300 bg-blue-100 p-4 text-center">
+          Third on mobile
+          <br />
+          <strong>Second on desktop</strong>
+        </div>
+      </GridColumn>,
+    ],
+  },
+};
+
+export const MobileFirstDesignOrder: Story = {
+  args: {
+    cols: 1,
+    lg: { cols: 2 },
+    gap: 6,
+    children: [
+      <GridColumn key="cta" span={12} order={1} lg={{ order: 2 }}>
+        <div className="rounded border-2 border-purple-400 bg-purple-100 p-6 text-center">
+          <h3 className="font-bold text-lg mb-2">Call to Action</h3>
+          <p className="text-sm">First on mobile (above content)</p>
+          <p className="text-sm">Second on desktop (right side)</p>
+        </div>
+      </GridColumn>,
+      <GridColumn key="content" span={12} order={2} lg={{ order: 1 }}>
+        <div className="rounded border border-gray-300 bg-gray-100 p-6">
+          <h3 className="font-bold text-lg mb-2">Main Content</h3>
+          <p className="text-sm">Second on mobile (below CTA)</p>
+          <p className="text-sm">First on desktop (left side)</p>
+          <p className="text-sm mt-2">
+            This pattern prioritizes the CTA on mobile for better conversion.
+          </p>
+        </div>
+      </GridColumn>,
+    ],
+  },
+};
+
 export const LargeGap: Story = {
   args: {
     cols: 3,
