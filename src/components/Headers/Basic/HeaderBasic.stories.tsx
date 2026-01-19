@@ -36,7 +36,7 @@ const meta: Meta<typeof HeaderBasic> = {
     },
     menuColor: {
       control: "select",
-      options: ["default", "inverted"],
+      options: ["default", "inverted", "text-color"],
     },
   },
 };
@@ -324,4 +324,27 @@ export const Controlled: Story = {
       </div>
     );
   },
+};
+
+export const TextColorMenu: Story = {
+  args: {
+    logo: <Logo />,
+    desktopMenu: <DesktopMenu />,
+    mobileMenu: <MobileMenu />,
+    menuColor: "text-color",
+  },
+  render: (args) => (
+    <div className="text-green-600">
+      <HeaderBasic {...args} />
+      <main className="p-8">
+        <Heading level="h1">Text Color Menu</Heading>
+        <p className="mt-4">
+          The hamburger menu inherits the green color from the parent container.
+        </p>
+        <div className="h-[1000px] mt-8 bg-gradient-to-b from-gray-50 to-white">
+          <p className="text-gray-500">Scroll to see sticky behavior...</p>
+        </div>
+      </main>
+    </div>
+  ),
 };

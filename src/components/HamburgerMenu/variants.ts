@@ -10,6 +10,8 @@ export const menuToggleVariants = tv({
     color: {
       default: "text-gray-900 hover:bg-gray-100 focus-visible:ring-gray-500",
       inverted: "text-white hover:bg-white/10 focus-visible:ring-white",
+      "text-color":
+        "text-current hover:bg-current/10 focus-visible:ring-current",
     },
     size: {
       sm: "h-9 w-9",

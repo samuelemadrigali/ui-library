@@ -61,7 +61,7 @@ export interface HeaderBasicProps
   /**
    * Custom hamburger menu color variant
    */
-  menuColor?: "default" | "inverted";
+  menuColor?: "default" | "inverted" | "text-color";
   /**
    * Animation type for mobile menu open/close
    * @default "slideDown"

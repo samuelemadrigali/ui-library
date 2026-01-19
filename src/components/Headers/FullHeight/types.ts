@@ -57,7 +57,7 @@ export interface HeaderFullHeightProps
   /**
    * Custom hamburger menu color variant
    */
-  menuColor?: "default" | "inverted";
+  menuColor?: "default" | "inverted" | "text-color";
   /**
    * Animation type for menu open/close
    * @default "slideDown"

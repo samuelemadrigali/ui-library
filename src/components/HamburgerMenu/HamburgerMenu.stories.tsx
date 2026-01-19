@@ -13,7 +13,7 @@ const meta: Meta<typeof HamburgerMenu> = {
   argTypes: {
     color: {
       control: "select",
-      options: ["default", "inverted"],
+      options: ["default", "inverted", "text-color"],
     },
     size: {
       control: "select",
@@ -84,5 +84,25 @@ export const LargeSize: Story = {
     size: "lg",
     isOpen: false,
     onToggle: () => console.log("Toggle clicked"),
+  },
+};
+
+export const TextColor: Story = {
+  args: {
+    color: "text-color",
+    isOpen: false,
+    onToggle: () => console.log("Toggle clicked"),
+  },
+  render: (args) => {
+    const [isOpen, setIsOpen] = useState(false);
+    return (
+      <div className="text-blue-600">
+        <HamburgerMenu
+          {...args}
+          isOpen={isOpen}
+          onToggle={() => setIsOpen(!isOpen)}
+        />
+      </div>
+    );
   },
 };

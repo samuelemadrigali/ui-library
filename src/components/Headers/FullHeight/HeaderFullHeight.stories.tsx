@@ -19,7 +19,7 @@ const meta: Meta<typeof HeaderFullHeight> = {
     },
     menuColor: {
       control: "select",
-      options: ["default", "inverted"],
+      options: ["default", "inverted", "text-color"],
     },
   },
 };
@@ -221,6 +221,26 @@ export const CustomOverlayStyles: Story = {
           This example demonstrates custom styling for the menu overlay using
           overlayClassName and overlayContentClassName props. The overlay has a
           gradient background and centered content.
+        </p>
+      </main>
+    </div>
+  ),
+};
+
+export const TextColorMenu: Story = {
+  args: {
+    leftSlot: <Logo />,
+    menuContent: <MenuContent />,
+    menuColor: "text-color",
+  },
+  render: (args) => (
+    <div className="text-purple-600">
+      <HeaderFullHeight {...args} />
+      <main className="p-8">
+        <Heading level="h1">Text Color Menu</Heading>
+        <p className="mt-4">
+          The hamburger menu inherits the purple color from the parent
+          container.
         </p>
       </main>
     </div>
