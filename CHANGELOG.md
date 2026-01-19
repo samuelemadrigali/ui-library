@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.4](https://github.com/samuelemadrigali/ui-library/compare/v1.7.3...v1.7.4) (2026-01-19)
+
+
+### Bug Fixes
+
+* update slot styles in FullHeight header variant for better responsiveness ([9c634f7](https://github.com/samuelemadrigali/ui-library/commit/9c634f7a6dbc09e9fa2e15e78d5d01fb2389b282))
+
 ### [1.7.3](https://github.com/samuelemadrigali/ui-library/compare/v1.7.2...v1.7.3) (2026-01-18)
 
 
