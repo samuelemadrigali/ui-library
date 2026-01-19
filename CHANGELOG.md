@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.7](https://github.com/samuelemadrigali/ui-library/compare/v1.7.6...v1.7.7) (2026-01-19)
+
+
+### Features
+
+* add 'text-color' variant for menu color in HamburgerMenu and Header components ([73919f7](https://github.com/samuelemadrigali/ui-library/commit/73919f7381666c039ce3fb2bc170ec86e0a19f61))
+
 ### [1.7.6](https://github.com/samuelemadrigali/ui-library/compare/v1.7.5...v1.7.6) (2026-01-19)
 
 
