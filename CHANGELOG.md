@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.6](https://github.com/samuelemadrigali/ui-library/compare/v1.7.5...v1.7.6) (2026-01-19)
+
+
+### Features
+
+* add custom overlay styles and props for HeaderFullHeight component ([4cf15ae](https://github.com/samuelemadrigali/ui-library/commit/4cf15ae74d3c9f7f8c8dfe877fd1fcc605be7bd3))
+
 ### [1.7.5](https://github.com/samuelemadrigali/ui-library/compare/v1.7.4...v1.7.5) (2026-01-19)
 
 
