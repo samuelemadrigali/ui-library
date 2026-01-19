@@ -34,6 +34,8 @@ export const HeaderFullHeight = forwardRef<
     transparent,
     animation = "slideDown",
     animationDuration = 300,
+    overlayClassName,
+    overlayContentClassName,
     children,
     ...props
   },
@@ -153,7 +155,7 @@ export const HeaderFullHeight = forwardRef<
       {menuContent && (
         <div
           ref={overlayRef}
-          className={styles.overlay()}
+          className={styles.overlay({ className: overlayClassName })}
           style={{
             top: headerHeight,
             transitionDuration: `${animationDuration}ms`,
@@ -161,7 +163,13 @@ export const HeaderFullHeight = forwardRef<
         >
           <Container>
             {/* Menu Content */}
-            <div className={styles.overlayContent()}>{menuContent}</div>
+            <div
+              className={styles.overlayContent({
+                className: overlayContentClassName,
+              })}
+            >
+              {menuContent}
+            </div>
           </Container>
         </div>
       )}

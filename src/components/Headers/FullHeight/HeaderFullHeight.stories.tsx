@@ -203,5 +203,29 @@ export const ThreeSlots: Story = {
   ),
 };
 
+export const CustomOverlayStyles: Story = {
+  args: {
+    leftSlot: <Logo />,
+    menuContent: <MenuContent />,
+    overlayClassName:
+      "bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900",
+    overlayContentClassName:
+      "py-16 flex items-center justify-center min-h-full",
+  },
+  render: (args) => (
+    <div>
+      <HeaderFullHeight {...args} />
+      <main className="p-8">
+        <Heading level="h1">Custom Overlay Styles</Heading>
+        <p className="mt-4">
+          This example demonstrates custom styling for the menu overlay using
+          overlayClassName and overlayContentClassName props. The overlay has a
+          gradient background and centered content.
+        </p>
+      </main>
+    </div>
+  ),
+};
+
 // Add React import for the controlled example
 import React from "react";

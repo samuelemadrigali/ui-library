@@ -68,4 +68,28 @@ export interface HeaderFullHeightProps
    * @default 300
    */
   animationDuration?: number;
+  /**
+   * Custom classes for the menu overlay container.
+   * Use this to customize the full-height overlay background, spacing, or layout.
+   * @example
+   * ```tsx
+   * <HeaderFullHeight
+   *   overlayClassName="bg-gradient-to-b from-blue-500 to-purple-600"
+   *   menuContent={<Menu />}
+   * />
+   * ```
+   */
+  overlayClassName?: string;
+  /**
+   * Custom classes for the menu content wrapper inside the overlay.
+   * Use this to customize padding, alignment, or layout of the menu content.
+   * @example
+   * ```tsx
+   * <HeaderFullHeight
+   *   overlayContentClassName="py-12 flex items-center justify-center min-h-full"
+   *   menuContent={<Menu />}
+   * />
+   * ```
+   */
+  overlayContentClassName?: string;
 }
