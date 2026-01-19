@@ -8,9 +8,9 @@ export const headerFullHeightVariants = tv({
       "bg-white",
     ],
     inner: ["grid grid-cols-[1fr_auto_1fr] items-center gap-4"],
-    leftSlot: ["flex items-center justify-start [&>*]:w-auto [&>*]:h-auto"],
-    centerSlot: ["flex items-center justify-center [&>*]:w-auto [&>*]:h-auto"],
-    rightSlot: ["flex items-center justify-end [&>*]:w-auto [&>*]:h-auto"],
+    leftSlot: ["flex items-center justify-start"],
+    centerSlot: ["flex items-center justify-center"],
+    rightSlot: ["flex items-center justify-end"],
     overlay: [
       "fixed left-0 right-0 bottom-0 z-30",
       "bg-white",
